@@ -39,13 +39,19 @@ I turn messy business data into clear requirements, dashboards and decisions. I 
 ### 4. Uber Eats and Sales Dashboards
 - **Objective:** Turn raw order and sales data into KPIs a manager can act on.
 - **Tools:** Power BI, Excel
+ 
+### 5. UK New Car and Van Registrations (Power BI)
+- **Objective:** Show how the UK new vehicle market is changing: fuel types, makes and models.
+- **Tools:** Power BI, Power Query, DAX, Excel. SQL, Excel and Python versions in progress.
+- **Results:** Electric share of new registrations rose from 0.34% (2014) to 20.98% (2025). Diesel fell from 55.94% (2014) to 13.80% (2026).
+- 📁 [View the project](https://github.com/amoshr/uk-vehicle-registrations)
 
 ---
 
 ## 🎓 Certifications
 - Microsoft **PL-300**: Power BI Data Analyst (2026)
 - AI-Powered Business Analyst Programme: Fortray / Simplilearn
-- CBAP certification training (completed) · Business Analytics with Excel (in progress)
+- CBAP certification training (completed) · Business Analytics with Excel
 
 ---
 
