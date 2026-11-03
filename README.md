@@ -1,49 +1,128 @@
-<h1 align="center">Amosh Roopsingh</h1> <h3 align="center">Business Analyst &nbsp;|&nbsp; Power BI Certified Data Analyst &nbsp;|&nbsp; MBA in Marketing</h3> <p align="center">📍 Birmingham, UK</p> <p align="center"> <a href="https://www.linkedin.com/in/amoshr"><img src="https://img.shields.io/badge/LinkedIn-amoshr-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a> <a href="mailto:amoshroopsingh@gmail.com"><img src="https://img.shields.io/badge/Email-amoshroopsingh@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a> <img src="https://img.shields.io/badge/Open_to-Business_Analyst_roles_in_the_UK-2FB57A?style=for-the-badge" alt="Open to work"> </p>
-👋 About me
+<h1 align="center">UK New Car and Van Registrations</h1>
 
-I turn business needs into clear requirements, process maps and dashboards. At SSP Group I analyse business processes, KPIs and root causes. Before that I spent 9+ years in sales in India, which taught me customers, commercial thinking and communication. I moved into Business Analysis, trained for it, and built the projects below.
+<p align="center">
+  <b>Electric overtook diesel in 2025.</b><br>
+  A four-page Power BI dashboard on how the UK new vehicle market has changed since 2014.
+</p>
 
-	
-🎯 How I work	Understand the problem and needs · Gather and Prioritise requirements · Document them for the technical team · Validate the solution
-🎓 Education	MBA in Marketing (Alagappa University) · B.Com in Retail Marketing (PSG College of Arts & Science)
-🏅 Certified	Microsoft Power BI Data Analyst Associate (PL-300), Oct 2026
-🛠️ Skills
+<p align="center">
+  <img alt="Power BI" src="https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black">
+  <img alt="MySQL" src="https://img.shields.io/badge/MySQL-Cross--check-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+  <img alt="Excel" src="https://img.shields.io/badge/Excel-Validation-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white">
+  <img alt="Data" src="https://img.shields.io/badge/Data-DfT%20%2F%20DVLA-1D70B8?style=for-the-badge">
+</p>
 
-Show Image Show Image Show Image Show Image Show Image Show Image Show Image
+<p align="center">
+  <img src="Dashboard_4.png" alt="Fuel switch: electric overtook diesel in 2025" width="100%">
+</p>
 
-Area	What I do
-📝 Requirements	Requirements gathering, BRD, user stories and acceptance criteria, use cases
-🔄 Process	AS-IS / TO-BE mapping, gap analysis, root cause analysis, process flow diagrams
-📊 Data and reporting	SQL, Advanced Excel, Power BI (Power Query, DAX), KPI dashboards
-✅ Delivery	Agile / Scrum, UAT support
-📂 Projects
-#	Project	Type	Tools	Link
-1	UK New Car and Van Registrations	Portfolio project (fictional client, real DfT/DVLA data)	Power BI, MySQL, Excel, BRD	📁 Open
-2	Credit Card Fraud Analysis	Programme capstone	SQL, Excel, Power BI, ERD, use case diagram	📁 credit-card-fraud-analysis
-3	Unilever Canteen Ordering System and WhatsApp Pay	Requirements case studies	Requirements docs, use case and process flow diagrams	📁 ba-requirements-case-studies
-⭐ Featured: UK New Car and Van Registrations
+> **Scenario:** This is a portfolio project. The business case (a fleet company deciding what vehicles to buy) is fictional. **The data is real and public.**
 
-Question: Which vehicles and fuel types is the UK market moving towards, and which makes are winning?
+---
 
-Finding	Result
-⚡ Battery electric share	0.34% (2014) → 20.98% (2025)
-⛽ Diesel share	55.94% (2014) → 13.80% (2026 so far)
-🚗 2025 total registrations	2,401,231 (+1.6%)
-✅ Cross-check	Same 2025 total in Power BI, Excel and MySQL
+## At a glance
 
-What I did: wrote a BRD, cleaned and reshaped public data in Power Query, built DAX measures and a 3-page Power BI dashboard, and checked the numbers with SQL.
+| Electric share, 2025 | Diesel share, 2025 | Electric growth, 2025 | New registrations, 2025 |
+|:---:|:---:|:---:|:---:|
+| **20.98%** | **15.39%** | **+24.6%** | **2,401,231** |
+| up from 0.34% in 2014 | down from 55.94% in 2014 | diesel fell 15.6% | +1.6% on 2024 |
 
-Credit Card Fraud Analysis (capstone)
-Measure	Result
-Transactions analysed	42,308
-Fraud cases	180 (0.43% fraud rate)
-Fraud value	$97,540.81
+---
 
-What I did: designed the ERD and use case diagram, fixed date-format and card-number data-type problems on import, built Excel analysis with COUNTIF / SUMIF / AVERAGEIFS, and built a 3-page Power BI dashboard.
+## Business question
 
-🎓 Certifications and training
-Item	Detail
-✅ Power BI Data Analyst Associate (PL-300)	Microsoft, Oct 2026
-🎓 AI-Powered Business Analyst Programme	Fortray / Simplilearn
-📚 Training	CBAP · Business Analytics with Excel · GenAI Powered SQL for Business Analysts · Agile Frameworks
-<p align="center"><i>Open to Business Analyst roles in the UK. Feel free to connect on LinkedIn.</i></p>
+> Which vehicles and fuel types is the UK market moving towards, and which makes are winning?
+
+---
+
+## Key findings
+
+| # | Finding | Evidence |
+|:---:|---|---|
+| 1 | **Electric overtook diesel in 2025** | 20.98% vs 15.39%. In 2024 diesel was still ahead (18.53% vs 17.11%). |
+| 2 | **Electric went from almost nothing to about one in five** | 0.34% (2014) to 20.98% (2025). 22.51% so far in 2026. |
+| 3 | **Diesel has collapsed** | 55.94% (2014) to 15.39% (2025). In 2025 diesel fell 15.6% and petrol fell 18.5%. |
+| 4 | **Hybrids are growing fast too** | In 2025 plug-in hybrid grew 39.1% and battery electric 24.6%. Hybrid and plug-in hybrid together were about 38% of registrations. |
+| 5 | **The market has not recovered to its pre-2019 size** | Quarterly registrations peaked at about 0.93M (2017), fell to about 0.21M (2020) and now sit at 0.5M to 0.6M. Latest quarter: 621K, up 13.27% on the same quarter last year. |
+| 6 | **Cars grew while vans fell** | Cars 2,071,394 (+3.6%). Vans 329,837 (-9.2%). |
+| 7 | **Volkswagen leads by a wide margin** | VW 187K, BMW 126K, Ford 120K, Audi 115K, Kia 113K. Best-selling model: Ford Puma (55,376, +14.6%). |
+
+---
+
+## Dashboard pages
+
+| Page | Question it answers |
+|---|---|
+| **1. UK new car and van registrations, 2014 to date** | How big is the market and how has it changed? |
+| **2. Electric and hybrid are replacing diesel** | Which fuel types are rising and falling? |
+| **3. Who is winning** | Which makes and models lead in 2025? |
+| **4. Fuel switch: electric overtook diesel in 2025** | When did electric pass diesel, and which fuels grew or fell in 2025? |
+
+<details>
+<summary><b>Show all four pages</b></summary>
+
+<br>
+
+![Page 1](Dashboard_1.png)
+![Page 2](Dashboard_2.png)
+![Page 3](Dashboard_3.png)
+![Page 4](Dashboard_4.png)
+
+</details>
+
+---
+
+## What I built
+
+- **Power Query:** cleaned and reshaped the data (unpivot, filters, a custom Fuel Group column).
+- **Date table:** created and linked to the data for time analysis.
+- **DAX measures:** Total Registrations, Fuel Share %, Electric Share %, Year-on-Year %, Latest Quarter figures, and 2025 comparison measures.
+- **Dark theme:** a custom JSON theme used on all four pages.
+- **Report pages:** four pages with slicers, conditional formatting (negative bars in red) and labelled charts.
+- **BRD:** a Business Requirements Document for the fictional fleet client.
+
+## Checking the numbers
+
+The 2025 total (**2,401,231**) was matched in **Power BI, Excel and MySQL**. The SQL check also caught a slicer on page 1 that was filtering to cars only, which I fixed. The queries are in [`analysis_queries.sql`](analysis_queries.sql).
+
+## Recommendations (for the fictional fleet client)
+
+1. **Plan for a smaller diesel share.** It is falling fast every year, so do not build a long-term buying plan around it.
+2. **Include hybrids and plug-in hybrids, not just full electric.** They are growing faster than the market.
+3. **Prefer popular makes and models** for resale and availability. The top makes hold a large share.
+
+## Limitations
+
+- The data covers **new registrations only**. It does not cover used cars and does not separate private, company or leasing buyers.
+- **2026 is a partial year**, so 2026 shares are year to date.
+- Growth rates for new models (for example BYD Seal, +1024.7%) come from a very small 2024 base. Read them with care.
+- The data does not explain **why** changes happened. Possible causes such as regulation or fuel prices are not tested here.
+
+---
+
+## Files
+
+| File | What it is |
+|---|---|
+| `UK_Fleet_Dashboard.pbix` | The Power BI dashboard |
+| `BRD_UK_Vehicle_Registrations.docx` | Business Requirements Document |
+| `UK_Fleet_Dashboard_Theme_Dark_v2.json` | The custom dark theme |
+| `analysis_queries.sql` | MySQL queries: checked ones plus extra analysis |
+| `Dashboard_1.png` to `Dashboard_4.png` | Screenshots of each page |
+
+## Data source
+
+Department for Transport and DVLA, *Vehicle licensing statistics* (new registrations by make, model and fuel type). Contains public sector information licensed under the [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+
+## Next steps
+
+- Extend the SQL analysis (fuel groups, electric share, year-on-year) and repeat it in Python.
+- Add a regional view.
+
+---
+
+<p align="center">
+  <b>Amosh Roopsingh</b> · Business Analyst · Birmingham, UK<br><br>
+  <a href="https://www.linkedin.com/in/amosh-roop-singh-business-analyst/">LinkedIn</a> ·
+  <a href="https://github.com/amoshr">GitHub</a>
+</p>
