@@ -52,7 +52,7 @@ At SSP Group I analyse service performance and KPIs, look for the root causes of
 | # | Project | Type | Tools | Repo |
 |:---:|---|---|---|---|
 | 1 | **Credit Card Fraud Analytics** | Programme capstone | SQL, Advanced Excel, Power BI, BRD | [credit-card-fraud-analysis](https://github.com/amoshr/credit-card-fraud-analysis) |
-| 2 | **UK New Car and Van Registrations** | Portfolio project (fictional client, real DfT/DVLA data) | SQL, Power BI, Excel, BRD | [Open](YOUR-UK-VEHICLES-REPO-LINK) |
+| 2 | **UK New Car and Van Registrations** | Portfolio project (fictional client, real DfT/DVLA data) | SQL, Power BI, Excel, BRD | [Open](https://github.com/amoshr/uk-vehicle-registrations) |
 | 3 | **Unilever Canteen Ordering System and WhatsApp Pay** | Requirements case studies | BRD, use case diagrams, process flow diagrams | [ba-requirements-case-studies](https://github.com/amoshr/ba-requirements-case-studies) |
 
 ---
@@ -81,7 +81,7 @@ At SSP Group I analyse service performance and KPIs, look for the root causes of
 **Question:** Which vehicles and fuel types is the UK market moving towards, and which makes are winning?
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/amoshr/YOUR-UK-VEHICLES-REPO/main/Dashboard_4.png" alt="Fuel switch: electric overtook diesel in 2025" width="100%">
+  <img src="https://raw.githubusercontent.com/amoshr/uk-vehicle-registrations/main/Dashboard_4a.png" alt="Fuel switch: electric overtook diesel in 2025" width="100%">
 </p>
 
 | Finding | Result |
