@@ -37,11 +37,11 @@ flowchart LR
 |---|---|
 | 📝 **Requirements and documentation** | Requirements elicitation, functional requirements, BRD, user stories and acceptance criteria, use cases |
 | 🔄 **Process analysis** | AS-IS / TO-BE process mapping, gap analysis, root cause analysis, business performance analysis, process improvement |
-| 📊 **Data and reporting** | SQL, Power BI (Power Query, DAX), Advanced Excel, KPI dashboards, data cleaning |
+| 📊 **Data and reporting** | SQL (PostgreSQL, MySQL), Python (pandas), Power BI (Power Query, DAX), Advanced Excel, KPI dashboards, data cleaning and reconciliation |
 | ✅ **Testing and delivery** | UAT support, Agile / Scrum frameworks |
 | 🧰 **Diagram tools** | Lucidchart, draw.io |
 
-**Training only (not used in my projects yet):** CBAP · Jira · Confluence · Microsoft Visio · Tableau Desktop · Python (Pandas, Matplotlib, Seaborn) · Business Analytics with Excel · GenAI Powered SQL for Business Analysts · RPA and Process Mining basics · Agile Frameworks · Microsoft Azure Data Fundamentals
+**Training only (not used in my projects yet):** CBAP · Jira · Confluence · Microsoft Visio · Tableau Desktop · Python (Matplotlib, Seaborn) · Business Analytics with Excel · GenAI Powered SQL for Business Analysts · RPA and Process Mining basics · Agile Frameworks · Microsoft Azure Data Fundamentals
 
 ---
 
@@ -49,12 +49,31 @@ flowchart LR
 
 | # | Project | Type | Tools | Repo |
 |:---:|---|---|---|---|
-| 1 | **UK New Car and Van Registrations** | Portfolio project (fictional client, real DfT/DVLA data) | SQL, Power BI, Excel, BRD | [uk-vehicle-registrations](https://github.com/amoshr/uk-vehicle-registrations) |
-| 2 | **Credit Card Fraud Analytics** | Programme capstone | SQL, Advanced Excel, Power BI, BRD | [credit-card-fraud-analysis](https://github.com/amoshr/credit-card-fraud-analysis) |
-| 3 | **Canteen Ordering System** | Requirements case study | BRD, RACI, swimlane, ER diagram, prototype | [canteen-ordering-system](https://github.com/amoshr/canteen-ordering-system) |
-| 4 | **WhatsApp Pay** | Requirements case study | BRD, use case diagram, process flows, wireframes | [whatsapp-pay-requirements](https://github.com/amoshr/whatsapp-pay-requirements) |
+| 1 | **Local Council Spending Pipeline** | Programme project (synthetic data) | Python (pandas), PostgreSQL, Power BI, BRD | [council-spending-analysis](https://github.com/amoshr/council-spending-analysis) |
+| 2 | **UK New Car and Van Registrations** | Portfolio project (fictional client, real DfT/DVLA data) | SQL, Power BI, Excel, BRD | [uk-vehicle-registrations](https://github.com/amoshr/uk-vehicle-registrations) |
+| 3 | **Credit Card Fraud Analytics** | Programme capstone | SQL, Advanced Excel, Power BI, BRD | [credit-card-fraud-analysis](https://github.com/amoshr/credit-card-fraud-analysis) |
+| 4 | **Canteen Ordering System** | Requirements case study | BRD, RACI, swimlane, ER diagram, prototype | [canteen-ordering-system](https://github.com/amoshr/canteen-ordering-system) |
+| 5 | **WhatsApp Pay** | Requirements case study | BRD, use case diagram, process flows, wireframes | [whatsapp-pay-requirements](https://github.com/amoshr/whatsapp-pay-requirements) |
 
-### 1. UK New Car and Van Registrations
+### 1. Local Council Spending Pipeline
+**Question:** Can a council finance team trust its spending figures, and see where spend differs from budget, without losing track of the rows it removes?
+
+<p align="center"><a href="https://github.com/amoshr/council-spending-analysis"><img src="card-council.png" alt="Council Spending Pipeline" width="85%"></a></p>
+
+| Result | Detail |
+|---|---|
+| ✅ Reconciled | 50,000 rows → 49,570 accepted + 180 rejected + 250 review |
+| 💷 One trusted total | £494,674,327.33 Recorded Spend, identical in Python, SQL and views |
+| 🧪 Checked | 9 SQL validation checks passed; every load logged in an audit table |
+| 📉 Under budget | All six councils spent less than budget: £23.9M (4.6%) under |
+
+**What I did**
+- Wrote a Business Requirements Document and data dictionary.
+- Built a repeatable Python (pandas) pipeline that keeps every rejected row with a reason code.
+- Loaded the data into PostgreSQL through staging, validation checks and a single-transaction promotion.
+- Built a 4-page Power BI dashboard and reconciled it to SQL.
+
+### 2. UK New Car and Van Registrations
 **Question:** Which vehicles and fuel types is the UK market moving towards, and which makes are winning?
 
 <p align="center"><img src="chart-vehicles.png" alt="Electric overtook diesel in 2025" width="85%"></p>
@@ -75,7 +94,7 @@ flowchart LR
 
 <p align="center"><img src="https://raw.githubusercontent.com/amoshr/uk-vehicle-registrations/main/Dashboard_4a.png" alt="UK vehicle registrations Power BI dashboard" width="85%"></p>
 
-### 2. Credit Card Fraud Analytics
+### 3. Credit Card Fraud Analytics
 **Objective:** find unusual credit card spending patterns and possible fraud risks through transaction analysis.
 
 <p align="center"><img src="chart-fraud.png" alt="42,308 transactions analysed, 180 fraud cases, 0.43% fraud rate" width="85%"></p>
@@ -87,7 +106,7 @@ flowchart LR
 - Analysed transactions with SQL and Excel (COUNTIF, SUMIF, AVERAGEIFS).
 - Built a 3-page Power BI dashboard to track suspicious transaction patterns.
 
-### 3 and 4. Requirements case studies
+### 4 and 5. Requirements case studies
 Two course case studies. They are not real client projects. Each repo has the full Word document, the diagrams and wireframes.
 
 <table>
